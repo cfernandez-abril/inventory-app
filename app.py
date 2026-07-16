@@ -3,9 +3,9 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 
 inventory = {
-    "SKU001": {"name": "Laptop", "stock": 10},
-    "SKU002": {"name": "Mouse", "stock": 50},
-    "SKU003": {"name": "Keyboard", "stock": 25}
+    "SKU001": {"name": "Laptop 2", "stock": 10},
+    "SKU002": {"name": "Mouse 2", "stock": 50},
+    "SKU003": {"name": "Keyboard 2", "stock": 25}
 }
 
 @app.route('/')
